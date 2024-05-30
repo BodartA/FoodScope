@@ -13,7 +13,7 @@ export default Button
 export const SmallPrimaryButton = ({ name = "smallButton" }) => {
   return (
     <div>
-      <button className=' bg-purple-400 border-2 border-black'>{name}</button>
+      <button className=' bg-back-purple text-white px-9 py-6 rounded-full hover:text-back-purple hover:bg-white border-[1px] border-back-purple transition duration-300 font-bold text-sm/[18px] text-nowrap font-dm-sans'>{name}</button>
     </div>
   );
 };
