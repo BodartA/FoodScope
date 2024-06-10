@@ -10,6 +10,7 @@ export default {
         'vintage-clear-orange': '#FF9F66',
         'vintage-flash-orange': '#FF5F00',
         'back-purple': '#5D5A88',
+        'grey-purple': '#9795B5',
         'custom-p-900': '#8D8BA7',
         'custom-p-600': '#D4D2E3',
         'custom-p-200': '#FAFAFF',
