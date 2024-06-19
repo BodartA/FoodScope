@@ -28,12 +28,12 @@ const Navbar = () => {
       </button>
 
       <div className={`${isOpen ? ' transition-transform -translate-x-full' : ' transition-transform translate-x-5'} 
-      lg:transition-none lg:transform-none lg:items-center lg:flex gap-6 lg:static absolute top-full left-full leading-8 h-screen lg:w-auto lg:bg-inherit lg:h-auto mt-[0.1px] bg-custom-p-200 w-[264px] lg:p-0 lg:shadow-none shadow-l-sm`}>
+      lg:transition-none lg:transform-none lg:items-center lg:flex gap-6 lg:static absolute top-full left-full leading-8 h-screen lg:w-auto lg:bg-inherit lg:h-auto mt-[1px] bg-custom-p-200 w-[264px] lg:p-0 lg:shadow-none shadow-l-sm`}>
         <ul className='lg:flex gap-[33px] text-back-purple pt-6 pb-4 lg:p-0'>
-          <li><a href='#' className=' flex justify-center py-1'>Home</a></li>
-          <li><a href='#' className=' flex justify-center py-1'>About</a></li>
-          <li><a href='#' className=' flex justify-center py-1'>Resources</a></li>
-          <li><a href='#' className=' flex justify-center py-1'>Contact</a></li>
+          <li><a href='/' className=' flex justify-center py-1'>Home</a></li>
+          <li><a href='/about' className=' flex justify-center py-1'>About</a></li>
+          <li><a href='/resources' className=' flex justify-center py-1'>Resources</a></li>
+          <li><a href='/contact ' className=' flex justify-center py-1'>Contact</a></li>
         </ul>
         <div className=' flex justify-center'>
           <SmallPrimaryButton name={'Get Started'}></SmallPrimaryButton>
