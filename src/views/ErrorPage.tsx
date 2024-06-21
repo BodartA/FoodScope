@@ -25,7 +25,7 @@ const ErrorPage = () => {
   return (
     <>
       <Navbar />
-      <div className='flex min-h-screen items-center justify-center'>
+      <div className='flex min-h-screen items-center justify-center mx-2'>
         <div className='text-center justify-center font-dm-sans lg:mt-[110px] mt-[70px]'>
           <h1 className=' text-5xl font-bold mb-4 text-back-purple'>Oops !</h1>
           <p className=' text-2xl font-semibold text-custom-p-900'>Sorry, an unexpected error has occurred.</p>
