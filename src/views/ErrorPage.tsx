@@ -26,10 +26,10 @@ const ErrorPage = () => {
     <>
       <Navbar />
       <div className='flex min-h-screen items-center justify-center'>
-        <div className=' text-center font-dm-sans lg:mt-[110px] mt-[70px]'>
-          <h1 className=' text-6xl font-bold mb-4 text-back-purple'>Oops !</h1>
-          <p className=' text-3xl font-semibold text-custom-p-900'>Sorry, an unexpected error has occurred.</p>
-          <img src={errorImage} alt="ErrorImage" className=''></img>
+        <div className='text-center justify-center font-dm-sans lg:mt-[110px] mt-[70px]'>
+          <h1 className=' text-5xl font-bold mb-4 text-back-purple'>Oops !</h1>
+          <p className=' text-2xl font-semibold text-custom-p-900'>Sorry, an unexpected error has occurred.</p>
+          <img src={errorImage} alt="ErrorImage" className=' max-w-[382px] max-h-[382px] mx-auto'></img>
           <p className=' text-xl text-custom-p-900'>
             <i>{error.statusText || error.error.message}</i>
           </p>
