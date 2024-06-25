@@ -17,7 +17,7 @@ const LandingPage = () => {
               Don't tell me you've never wondered what's in your fridge ? How long has this cheese been open ? When does it expire ? ...
             </h2>
             <div className='lg:mb-0 mb-10 text-center'>
-              <DefaultPrimaryButtonArrowResp name='Get Started' />
+              <DefaultPrimaryButtonArrowResp name={"Let's fill it !"} />
             </div>
           </div>
         </div>
